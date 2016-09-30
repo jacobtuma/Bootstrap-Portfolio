@@ -102,7 +102,7 @@ hr {
 	padding: 0;
 	border-bottom: 0;
 	letter-spacing: 1px;
-	background: #0A4847;
+	background: #333;
 	text-transform: uppercase;
 }
 .navbar-custom .navbar-brand {
@@ -223,10 +223,14 @@ hr {
 	background-color: #BDE4FF;
 }
 .section-title.center {
-	padding: 30px 0;
+	padding: 15px 0;
+	padding-top: 70px;
 }
 .section-title h2, .section-title.center h2 {
 	margin-bottom: 30px;
+	color:#BDE4FF;
+	font-family: Averia Libre ;
+
 }
 /* About Section */
 #about {
@@ -235,9 +239,11 @@ hr {
 }
 #about .about-text {
 	margin-left: 10px;
+
 }
 #about H4 {
 	font-size: 20px;
+	color:#BDE4FF;
 }
 #about li {
 	margin-bottom: 3px;
@@ -260,7 +266,7 @@ hr {
 	text-shadow: 0 0 1px #666;
 }
 #about img {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 #about p {
 	margin-top: 20px;
@@ -298,7 +304,7 @@ hr {
 /* Gallery Section */
 #works {
 	padding: 120px 0;
-	background: #f6f6f6;
+	background:  #082432;
 }
 .categories {
 	padding-bottom: 30px;
@@ -475,7 +481,7 @@ img.img-thumbnail.team-img {
 /* Contact Section */
 #contact {
 	padding: 120px 0 40px 0;
-	background: #f6f6f6;
+	background: #082432;
 }
 #contact .contact-item {
 	padding: 10px;
@@ -530,7 +536,7 @@ label {
 	box-shadow: transparent;
 }
 #contact .btn-default {
-	background: #cf5022;
+	background: #3F657F;
 	border: 0;
 	border-radius: 4px;
 	padding: 10px 20px;
@@ -539,8 +545,8 @@ label {
 	font-size: 15px;
 }
 #contact .btn-default:hover, #contact .btn-default:focus {
-	color: #f6f6f6;
-	background: #a13e1a;
+	color: black;
+	background: #BDE4FF;
 }
 .btn:active, .btn.active {
 	background-image: none;
